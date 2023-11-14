@@ -3,7 +3,6 @@ package lesson14;
 import java.util.ArrayList;
 import java.util.List;
 
-// Створення інтерфейсу Dao
 interface Dao {
     void addUser(User user);
     User getOneUser();
@@ -57,3 +56,4 @@ class Main1 {
         }
     }
 }
+//
