@@ -11,11 +11,11 @@ public class Main2 {
         numbers.add(3);
         numbers.add(4);
 
-        Iterator<Integer> iterator = numbers.iterator();
+        Iterator<Integer> listIterator = numbers.iterator();
 
-        while (iterator.hasNext()) {
-            int value = iterator.next();
-            iterator.remove();
+        while (listIterator.hasNext()) {
+            int value = listIterator.next();
+            listIterator.remove();
             numbers.add(value + 1);
         }
 

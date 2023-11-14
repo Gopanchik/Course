@@ -12,11 +12,11 @@ public class Main1{
         numbers.add(3);
         numbers.add(4);
 
-        ListIterator<Integer> iterator = numbers.listIterator();
+        ListIterator<Integer> listIterator = numbers.listIterator();
 
-        while (iterator.hasNext()) {
-            int value = iterator.next();
-            iterator.set(value + 1);
+        while (listIterator.hasNext()) {
+            int value = listIterator.next();
+            listIterator.set(value + 1);
         }
 
         for (Integer number : numbers) {
